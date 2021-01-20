@@ -19,8 +19,7 @@ namespace Blog.Controllers
                     new Post() { Titulo = "New York, New York", Resumo = "Sucesso de Frank Sinatra", Categoria = "Música" }
         };
 
-            ViewBag.Posts = listaDePosts;
-            return View();
+            return View(listaDePosts);
         }
     }
 }
