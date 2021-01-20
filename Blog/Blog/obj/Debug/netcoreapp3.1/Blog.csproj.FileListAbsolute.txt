@@ -29,3 +29,4 @@ D:\PROJETOS\Caellum Curso - Blog\Blog\Blog\obj\Debug\netcoreapp3.1\Blog.pdb
 D:\PROJETOS\Caellum Curso - Blog\Blog\Blog\obj\Debug\netcoreapp3.1\Blog.genruntimeconfig.cache
 D:\PROJETOS\Caellum Curso - Blog\Blog\Blog\obj\Debug\netcoreapp3.1\Blog.csproj.CopyComplete
 D:\PROJETOS\Caellum Curso - Blog\Blog\Blog\obj\Debug\netcoreapp3.1\Razor\Views\Post\Index.cshtml.g.cs
+D:\PROJETOS\Caellum Curso - Blog\Blog\Blog\obj\Debug\netcoreapp3.1\Razor\Views\Post\Novo.cshtml.g.cs
