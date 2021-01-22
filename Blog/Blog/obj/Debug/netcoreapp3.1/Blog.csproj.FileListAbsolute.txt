@@ -12,8 +12,6 @@ D:\PROJETOS\Caellum Curso - Blog\Blog\Blog\bin\Debug\netcoreapp3.1\Blog.Views.pd
 D:\PROJETOS\Caellum Curso - Blog\Blog\Blog\obj\Debug\netcoreapp3.1\Blog.csprojAssemblyReference.cache
 D:\PROJETOS\Caellum Curso - Blog\Blog\Blog\obj\Debug\netcoreapp3.1\Blog.AssemblyInfoInputs.cache
 D:\PROJETOS\Caellum Curso - Blog\Blog\Blog\obj\Debug\netcoreapp3.1\Blog.AssemblyInfo.cs
-D:\PROJETOS\Caellum Curso - Blog\Blog\Blog\obj\Debug\netcoreapp3.1\Blog.csproj.CoreCompileInputs.cache
-D:\PROJETOS\Caellum Curso - Blog\Blog\Blog\obj\Debug\netcoreapp3.1\Blog.MvcApplicationPartsAssemblyInfo.cache
 D:\PROJETOS\Caellum Curso - Blog\Blog\Blog\obj\Debug\netcoreapp3.1\Blog.RazorAssemblyInfo.cache
 D:\PROJETOS\Caellum Curso - Blog\Blog\Blog\obj\Debug\netcoreapp3.1\Blog.RazorAssemblyInfo.cs
 D:\PROJETOS\Caellum Curso - Blog\Blog\Blog\obj\Debug\netcoreapp3.1\Blog.TagHelpers.input.cache
@@ -30,3 +28,11 @@ D:\PROJETOS\Caellum Curso - Blog\Blog\Blog\obj\Debug\netcoreapp3.1\Blog.genrunti
 D:\PROJETOS\Caellum Curso - Blog\Blog\Blog\obj\Debug\netcoreapp3.1\Blog.csproj.CopyComplete
 D:\PROJETOS\Caellum Curso - Blog\Blog\Blog\obj\Debug\netcoreapp3.1\Razor\Views\Post\Index.cshtml.g.cs
 D:\PROJETOS\Caellum Curso - Blog\Blog\Blog\obj\Debug\netcoreapp3.1\Razor\Views\Post\Novo.cshtml.g.cs
+D:\PROJETOS\Caellum Curso - Blog\Blog\Blog\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\PROJETOS\Caellum Curso - Blog\Blog\Blog\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\PROJETOS\Caellum Curso - Blog\Blog\Blog\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\PROJETOS\Caellum Curso - Blog\Blog\Blog\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\PROJETOS\Caellum Curso - Blog\Blog\Blog\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\PROJETOS\Caellum Curso - Blog\Blog\Blog\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\PROJETOS\Caellum Curso - Blog\Blog\Blog\obj\Debug\netcoreapp3.1\Blog.csproj.CoreCompileInputs.cache
+D:\PROJETOS\Caellum Curso - Blog\Blog\Blog\obj\Debug\netcoreapp3.1\Blog.MvcApplicationPartsAssemblyInfo.cache

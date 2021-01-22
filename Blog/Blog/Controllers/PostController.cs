@@ -4,12 +4,14 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Blog.Models;
+using System.Data.SqlClient;
+using Blog.Infra;
 
 namespace Blog.Controllers
 {
     public class PostController : Controller
     {
-        private IList<Post> lista; 
+        private IList<Post> lista;
 
         public PostController()
         {
@@ -23,16 +25,29 @@ namespace Blog.Controllers
         }
         public IActionResult Index()
         {
-            var listaDePosts = new List<Post>()
+            IList<Post> lista = new List<Post>();
+            using (SqlConnection cnx = ConnectionFactory.CriaConexaoAberta())
             {
-                    new Post() { Titulo = "Harry Potter 1", Resumo = "Pedra Filosofal", Categoria = "Filme, Livro" },
-                    new Post() { Titulo = "Cassino	Royale", Resumo = "007", Categoria = "Filme" },
-                    new Post() { Titulo = "Monge e o Executivo", Resumo = "Romance sobre Liderança", Categoria  = "Livro" },
-                    new Post() { Titulo = "New York, New York", Resumo = "Sucesso de Frank Sinatra", Categoria = "Música" }
-        };
+                SqlCommand comando = cnx.CreateCommand();
+                comando.CommandText = "select * from Posts";
+                SqlDataReader leitor = comando.ExecuteReader();
 
-            return View(listaDePosts);
+                while (leitor.Read())
+                {
+                    Post post = new Post()
+                    {
+                        Id = Convert.ToInt32(leitor["id"]),
+                        Titulo = Convert.ToString(leitor["titulo"]),
+                        Resumo = Convert.ToString(leitor["Resumo"]),
+                        Categoria = Convert.ToString(leitor["categoria"])
+                    };
+                }
+            }
+            return View(lista);
         }
+        
+
+
 
         public IActionResult Novo()
         {
